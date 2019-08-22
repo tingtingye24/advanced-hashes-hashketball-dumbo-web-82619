@@ -276,4 +276,7 @@ def player_with_longest_name
   curName
 end
   
-
+def long_name_steals_a_ton?
+  longname = player_with_longest_name
+  steals = 0
+end
