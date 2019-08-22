@@ -276,10 +276,10 @@ def player_with_longest_name
   curName
 end
   
-def long_name_steals_a_ton
-  longname = player_with_longest_name
-  steals = game_hash[:away][:players][longname][:steals]
-  binding.pry
-end
+# def long_name_steals_a_ton
+#   longname = player_with_longest_name
+#   steals = game_hash[:away][:players][longname][:steals]
+#   binding.pry
+# end
 
-long_name_steals_a_ton
+# long_name_steals_a_ton
